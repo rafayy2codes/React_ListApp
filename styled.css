@@ -1,0 +1,72 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main container styles */
+.todos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* List item styles */
+.list-item {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s ease-in-out;
+    /* Smooth transition on hover */
+}
+
+.list-item:hover {
+    background-color: #4a4a4a;
+    cursor: pointer;
+}
+
+/* Text styles */
+.todos_single--text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Icon container styles */
+.iconsContainer {
+    display: flex;
+    align-items: center;
+}
+
+/* Icon styles */
+.icon {
+    margin: 0 8px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ecf0f1;
+}
+
+/* Separator line between list items */
+.todos_single {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #555;
+}
