@@ -1,0 +1,99 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main container styles */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Heading styles */
+.heading {
+  color: #61dafb;
+  font-size: 24px;
+}
+
+/* InputField styles */
+.InputField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+/* Input box styles */
+.inputbox {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  color: #333;
+  /* Text color for better visibility */
+}
+
+/* Submit button styles */
+.submit_task {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1aee4f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+  /* Smooth transition on hover */
+}
+
+.submit_task:hover {
+  background-color: #4fa3cc;
+}
+
+/* Todo text styles */
+.todos_single--text {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Todo container styles */
+.todos_single {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Icon container styles */
+.iconsContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* Icon styles */
+.icon {
+  margin: 0 5px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+}
